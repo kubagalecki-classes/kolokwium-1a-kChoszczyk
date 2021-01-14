@@ -11,6 +11,6 @@ template <typename T>
 void sortujTagliatelle(T beg, T ender)
 {
 
-  std::sort(beg, ender, [](T a, T b){double a1 = a -> ileMaki(1);
-  double b1 = b -> ileMaki(1); return a1<b1;});
+  std::sort(beg, ender, [](T a, T b){double a1 = a.ileMaki(1);
+  double b1 = b.ileMaki(1); return a1<b1;});
 }
