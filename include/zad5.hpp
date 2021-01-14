@@ -7,3 +7,5 @@
 #include <vector>
 
 // tutaj funkcja sortujTagliatelle
+template <typename T>
+sortujTagliatelle(T beg, T ender)
