@@ -3,3 +3,7 @@
 #include <vector>
 
 // tutaj funkcja obliczMake
+obliczMake(std::vector<Tagliatelle>)
+{
+
+}
