@@ -7,7 +7,7 @@ double obliczMake(const std::vector<Tagliatelle>& vec)
 {
   double M = 0;
   int num = 0;
-  for(auto it = vec.rend(); it!=vec.rend(); it++)
+  for(auto it = vec.rbegin(); it!=vec.rend(); it++)
   {
     num++;
     M+=it -> ileMaki(num);

@@ -8,4 +8,7 @@
 
 // tutaj funkcja sortujTagliatelle
 template <typename T>
-sortujTagliatelle(T beg, T ender)
+void sortujTagliatelle(T beg, T ender)
+{
+  
+}
