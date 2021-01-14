@@ -6,7 +6,7 @@
 struct Makaron
 {
   virtual double ileMaki(unsigned) const = 0;
-  friend static Makaron* gotujMakaron(const std::string& )
+  friend static Makaron* gotujMakaron(const std::string& T);
 };
 
 // Zad1
