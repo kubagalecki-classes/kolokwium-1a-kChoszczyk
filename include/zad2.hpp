@@ -13,7 +13,7 @@ struct Penne : public Makaron
   }
 };
 // tutaj definicja metody gotujMakaron
-static Makaron* Makaron::gotujMakaron(const std::string& T)
+static Makaron* Makaron::gotujMakaron(const std::string& T) override
 {
   if(T.front == T.back)
   {
