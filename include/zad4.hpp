@@ -5,5 +5,5 @@
 // tutaj funkcja obliczMake
 obliczMake(const std::vector<Tagliatelle>& vec)
 {
-  double M = 
+  for(const Tagliatelle& e : vec)
 }
