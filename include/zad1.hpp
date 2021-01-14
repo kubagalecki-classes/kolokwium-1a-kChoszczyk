@@ -10,11 +10,11 @@ struct Makaron
   {
     if(T.front == T.back)
     {
-      auto ret = new Tagliatelle{3.14, 0.42, 0.1};
+      Tagliatelle* ret = new Tagliatelle{3.14, 0.42, 0.1};
     }
     else
     {
-      auto ret = new Penne{};
+      Penne* ret = new Penne{};
     }
     return ret;
   }
